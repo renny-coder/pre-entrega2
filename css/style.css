@@ -134,6 +134,7 @@ main p{
     padding: 0.5rem;
     display: flex;
     margin-top: 100px;
+    margin-right: 100px;
    
     
 }
@@ -141,6 +142,7 @@ main p{
 .video-2 {
     padding: 0.5rem;
     display: flex;
+    margin-right: 100px;
     
 
     
