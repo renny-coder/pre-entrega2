@@ -7,7 +7,7 @@
 
 
 header {
-    
+    flex-direction: column;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(229,70,252,1) 100%);
     display: flex;
@@ -58,6 +58,14 @@ ul li {
 }
 
 /* main */
+.container{
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
 
 body {
     background-color: rgb(179, 148, 184);
@@ -134,8 +142,7 @@ main p{
     padding: 0.5rem;
     display: flex;
     margin-top: 100px;
-    margin-right: 100px;
-   
+    margin-right: 100px 
     
 }
 
@@ -143,11 +150,10 @@ main p{
     padding: 0.5rem;
     display: flex;
     margin-right: 100px;
-    
-
-    
+       
     
 }
+
 
 /* footer */
 
@@ -160,8 +166,7 @@ ul {
     margin-bottom: 0px;
     margin-top: 50px; 
 } 
-
-     
+   
 
 /* biografia */
 
@@ -185,15 +190,12 @@ ul {
     margin-right: 150px;
     margin-left: 150px;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: 'Times New Roman', Times, serif
    
 }
 
-
 /* preguntas frecuentes*/
-
-   
+  
 
 details {
     background-color: aliceblue;
@@ -224,7 +226,6 @@ div p{
     margin-right: 150px;
     margin-bottom: 10px;
 }
-
 
 
 summary::before{
@@ -351,22 +352,23 @@ article p {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-with: 768px) {
+
+
+@media (max-with: 768px){
+    body{
+        background-color: black;
+    }
+
 }
     
-@media only screen and (max-with: 576px) {    
+@media (min-with: 576px){  
+    body{
+        background-color: blue;
+    }
 }
 
-header{
-    flex-direction: column;
-    align-items: center;
-}
 
-.article-info{
-    flex-direction: column;
-    align-items: center;
 
-}
 
 
 
